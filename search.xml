@@ -72,7 +72,7 @@
   <entry>
     <title>2024.01.04_学习日记</title>
     <url>/2024/01/04/2024-01-04-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/</url>
-    <content><![CDATA[<p>天气：晴<br>学习地点：宿舍<br>学习时长：</p>
+    <content><![CDATA[<p>天气：晴<br>学习地点：宿舍<br>学习时长：6h</p>
 <span id="more"></span>
 <h2 id="学习内容"><a href="#学习内容" class="headerlink" title="学习内容"></a>学习内容</h2><ol>
 <li>小红书面试题<br><img src="/2024/01/04/2024-01-04-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/f806571b470cf54c73391b0a4db1f07.png" alt="Alt text"><br><em>这个题先排除掉奇数个的情况以及红蓝数量大于一半的情况。然后将数组按照先无色、红色、蓝色分别排序并且把无色按照cost排序，cost指红色-蓝色cost最大的情况，统计每个颜色的数量，先把所有的无色都变成红色，然后算出有多少个要变成蓝色，然后把无色的前n个变化即可。<a href="https://github.com/algorithmzuo/publicclass2020/blob/master/src/class059/Code01_MagicStone.java">题解链接</a></em></li>
@@ -80,6 +80,7 @@
 <li>腾讯面试题（lc881）<br><img src="/2024/01/04/2024-01-04-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/86dbeecd667add524a2c17cbeb6e153.png" alt="Alt text"><br><em>直接贪心，先排序，左右两个指针，左右两个值相加小于目标值的时候，左边右移，右边左移count+1，否则，count+1同时右边左移但左边不右移，因为右边的大的数没有小的数可以匹配了，左边还可以继续用，但是右边必须让count更新。</em></li>
 <li>京东面试题（lclcr010）<br><img src="/2024/01/04/2024-01-04-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/e9ffc17c308c7a593afcffc4266286e.png" alt="Alt text"><br><em>前缀和加哈希，这个题就是遍历一次，以每个数结尾的和-k值有多少个，并且同时记录前缀和，把前缀和记录到哈希表里，最后遍历相加每一个前缀和的个数即可。这个题很经典，多看</em></li>
 </ol>
+<h2 id="学习心得"><a href="#学习心得" class="headerlink" title="学习心得"></a>学习心得</h2><p>今天几个面试题很经典，每天保持做5个题左右，坚持到1月底能做150个题了，加油！希望2月份能拿到好的实习机会。</p>
 ]]></content>
       <categories>
         <category>学习日记</category>
